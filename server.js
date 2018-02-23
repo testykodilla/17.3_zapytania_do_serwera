@@ -24,7 +24,7 @@ app.post('/updateNote:note', function(req, res) {
         console.log('file updated');
         console.log(stringifyFile);
     });
-})
+});
 
 var server = app.listen(3000, function() {
     console.log('Przykładowa aplikacja nasłuchuje na http://localhost:3000');
